@@ -1,0 +1,48 @@
+ * {
+        box-sizing: border-box; 
+}
+body {
+    background: lightgrey;
+}
+.wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+title,
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+        font-family: 'Oswald', sans-serif;
+}
+
+.header-nav li {
+    background: white;
+    margin: 5px 20px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+.header-nav a {
+    text-decoration: none;
+}
+
+.banner-image {
+    width: 75%;
+}
+.banner {
+    text-align: center;
+    padding: 3em 1em 2em;
+}
+.portfolio-item {
+    width: 320px;
+}
+.portfolio-image {
+    width: 90%;
+}
