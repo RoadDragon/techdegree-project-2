@@ -2,28 +2,34 @@
     box-sizing: border-box; 
 }
 body {
-    background: lightgrey;
+    background: #FAFAFA;
     width: 320px;
 }
 
 
 title,
 h1,
-h2 {
+h2,
+p {
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h3,
 h4,
 h5,
 h6,
-p {
+{
     font-family: 'Oswald', sans-serif;
 }
 
 h1,
 .header-nav {
     text-align: center;
+}
+.section-header {
+    text-transform: uppercase;
+    padding-bottom: 2em;
 }
 
 .banner {
@@ -41,23 +47,25 @@ h1,
 }
 .header-nav a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.banner-text {
+    color:darkgrey;
+}
+/* Portfolio */
+.container {
+    background: white;
+    text-align: center;
+    padding: 3em 0;
+}
+.portfolio-image {
+    width: 90%;
 }
 /* 
-.header-nav li {
-    text-align: center;
-}
 
-header {
-    margin: 0 auto;
-}
- .wrap {
-    margin: 0 auto;
-    text-align: center;
- }
 
 .portfolio-item {
     width: 320px;
 }
-.portfolio-image {
-    width: 90%;
-} */ */
+ */ 
