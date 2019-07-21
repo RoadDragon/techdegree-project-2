@@ -1,13 +1,11 @@
  * {
-        box-sizing: border-box; 
+    box-sizing: border-box; 
 }
 body {
     background: lightgrey;
+    width: 320px;
 }
-.wrap {
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 title,
 h1,
@@ -20,9 +18,21 @@ h4,
 h5,
 h6,
 p {
-        font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
+h1,
+.header-nav {
+    text-align: center;
+}
+
+.banner {
+    text-align: center;
+    padding: 2em 1em 2em;
+}
+.banner-image {
+    width: 75%;
+}
 .header-nav li {
     background: white;
     margin: 5px 20px;
@@ -32,17 +42,22 @@ p {
 .header-nav a {
     text-decoration: none;
 }
-
-.banner-image {
-    width: 75%;
-}
-.banner {
+/* 
+.header-nav li {
     text-align: center;
-    padding: 3em 1em 2em;
 }
+
+header {
+    margin: 0 auto;
+}
+ .wrap {
+    margin: 0 auto;
+    text-align: center;
+ }
+
 .portfolio-item {
     width: 320px;
 }
 .portfolio-image {
     width: 90%;
-}
+} */ */
