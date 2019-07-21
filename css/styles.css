@@ -10,17 +10,17 @@ body {
 title,
 h1,
 h2,
-p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+h4,
+p 
+{
+    font-family: 'Raleway', sans-serif;
 }
 
 h3,
-h4,
 h5,
 h6,
 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -29,7 +29,7 @@ h1,
 }
 .section-header {
     text-transform: uppercase;
-    padding-bottom: 2em;
+    padding-bottom: 2em 0 0;
 }
 
 .banner {
@@ -50,22 +50,26 @@ h1,
     color: black;
     font-weight: bold;
 }
-.banner-text {
+.banner-text,
+.portfolio-item-description {
     color:darkgrey;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 /* Portfolio */
 .container {
     background: white;
     text-align: center;
-    padding: 3em 0;
+    padding: 3em 0 3em;
+}
+.portfolio-item {
+    padding-top: 2em;
 }
 .portfolio-image {
     width: 90%;
 }
-/* 
-
-
-.portfolio-item {
-    width: 320px;
+.portfolio-item-heading {
+    font-weight: normal;
+    font-size: 1.2em;
 }
- */ 
+
