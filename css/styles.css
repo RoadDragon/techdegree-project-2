@@ -92,3 +92,35 @@ span a {
     text-decoration: none;
     color: dimgrey;
 }
+.bottom {
+    margin: 0 1em;
+    border-top: .75px solid rgb(169,169,169,.5);
+}
+hr {
+    color: #fafafa;
+}
+#student-name {
+    float: left;
+}
+#back-to-top {
+    float: right;
+    text-transform: uppercase;
+
+}
+#back-to-top a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+@media (min-width: 768px) {
+
+
+
+}
+
+@media (min-width: 1024px) {
+
+
+    
+}
