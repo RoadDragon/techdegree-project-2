@@ -3,10 +3,17 @@
 }
 body {
     background: #FAFAFA;
-    width: 320px;
+    /* width: 320px; */
+    width: 100%;
 }
 
-
+.name {
+    color: rgb(255, 139, 38);
+    text-shadow:  0 2px .5px rgba(108, 122, 137, .5);
+}
+a:hover {
+    color: rgb(255, 139, 38);
+}
 title,
 h1,
 h2,
@@ -31,6 +38,9 @@ h1,
     text-transform: uppercase;
     padding-bottom: 2em 0 0;
 }
+#portfolio {
+    background: peachpuff;
+}
 
 .banner {
     text-align: center;
@@ -50,6 +60,10 @@ h1,
     color: black;
     font-weight: bold;
 }
+.header-nav a:hover {
+    color: rgb(255, 139, 38) !important;
+}
+
 .banner-text,
 .portfolio-item-description {
     color:darkgrey;
@@ -71,6 +85,9 @@ h1,
 .portfolio-item-heading {
     font-weight: normal;
     font-size: 1.2em;
+}
+.portfolio-item-description {
+    margin: 1em;
 }
 /* Footer */
 #contact {
@@ -111,11 +128,20 @@ hr {
     text-decoration: none;
     color: black;
 }
+.lower-right a:hover {
+    color: rgb(255, 139, 38) !important;
+}
+#end-navigation {
+    visibility: hidden;
+}
 
 /* ----------- MEDIA QUERIES ----------- */
 @media (min-width: 768px) {
 body {
     width: 100%;
+}
+.header-nav ul{
+    background: peachpuff;
 }
 .banner {
     width: 90%;
@@ -176,9 +202,20 @@ body {
 .lower-right a {
     margin: 15px;
 }
-
+#end-navigation {
+    visibility: visible;
+}
 
 }
+
+
+@media (min-width: 927px) {
+.portfolio-item {
+    width: 33%;
+}
+}
+
+
 
 @media (min-width: 1024px) {
 .banner {
@@ -227,7 +264,7 @@ body {
     margin-left: auto;
 }
 }
-/* ----------- MEDIA QUERIES ----------- */
+/* ----------- CLEARFIX ----------- */
 .clearfix::after {
     content: "";
     display: table;
