@@ -137,7 +137,10 @@ body {
     padding: 10px 15px;
     background: none;
 }
-.container {
+.container,
+.wrap,
+.banner,
+.bottom {
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
@@ -175,16 +178,54 @@ body {
 }
 
 
-
-
-
-
 }
 
 @media (min-width: 1024px) {
-
-
-    
+.banner {
+    width: 100%;
+    padding: 32px 3em;
+}
+.banner-text {
+    padding: 0 2em 0 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+.name {
+    float: left;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.header-nav ul {
+    float: right;
+    padding-top: 1em;
+    font-size: .9em;
+}
+#portfolio {
+    width: 90%;
+}
+.name,
+.header-nav {
+    padding: 1em 2em 0 2em;
+    vertical-align: top;
+}
+.portfolio-item {
+    width: 33%;
+}
+.tablet-size {
+        padding-right: 1.8em;
+    padding-left: 1.8em;
+}
+#footer-text {
+    width: 45%;
+}
+.portfolio-item-heading,
+.portfolio-item-description {
+    width: 93%;
+    font-size: .9em;
+    margin-right: auto;
+    margin-left: auto;
+}
 }
 /* ----------- MEDIA QUERIES ----------- */
 .clearfix::after {
