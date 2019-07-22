@@ -102,12 +102,12 @@ hr {
 #student-name {
     float: left;
 }
-#back-to-top {
+.lower-right {
     float: right;
     text-transform: uppercase;
 
 }
-#back-to-top a {
+.lower-right a {
     text-decoration: none;
     color: black;
 }
@@ -131,27 +131,48 @@ body {
     float: right;
     width: 40%;
 }
-/* .header-nav {
-    display: block;
-    text-align: center;
-} */
-/* .header-nav li {
-    display: inline-block;
-    width: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-} */
 .header-nav li {
     display: inline-block;
     margin: 5px 0;
     padding: 10px 15px;
     background: none;
 }
-
-
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.tablet-size {
+    display: block;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.portfolio-item {
+    width: 50%;
+    float: left;
+}
+.portfolio-image {
+    width: 95%;
+}
+.portfolio-item-heading,
+.portfolio-item-description {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#footer-text {
+    width: 60%;
+    padding-bottom: 20px;
+}
+.footer-contact {
+    margin: 20px 0;
+}
+#back-to-top {
+    display: none;
+}
+.lower-right a {
+    margin: 15px;
+}
 
 
 
