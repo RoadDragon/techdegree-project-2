@@ -90,8 +90,15 @@ h1,
     margin: 1em;
 }
 /* Footer */
+footer {
+    padding: 15px;
+}
+
 #contact {
     background: #fafafa;
+    border-bottom: .75px solid rgb(169,169,169,.5);
+    margin: 0 auto;
+
 }
 .footer-item {
     font-size: 1em;
@@ -121,14 +128,15 @@ span a {
     color: dimgrey;
 }
 .bottom {
-    margin: 0 1em;
-    border-top: .75px solid rgb(169,169,169,.5);
+    margin: 0 auto;
+    
 }
 hr {
     color: #fafafa;
 }
 #student-name {
-    float: left;
+    /* float: left; */
+    display: inline-block;
 }
 .lower-right {
     float: right;
@@ -182,7 +190,6 @@ body {
     margin: 0 auto;
 }
 .bottom {
-    margin: 0 1em;
     max-width: 1150px;
 }
 .banner {
